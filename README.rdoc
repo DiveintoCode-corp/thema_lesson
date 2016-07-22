@@ -1,28 +1,20 @@
-== README
+* git cloneする
+* .gitignoreにvendor/bundleを追加
+* bundle install —path vendor/bundle
+* sudo service postgresql start（cloud9の人のみ）
+* rake db:create
+* rake db:migrate
+* Githubのアカウント情報を聞いてCollaboratorに追加
+* git checkout -b develop
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+-------開発スタート--------
+* git checkout -b issue#○○
+* git add .
+* git commit -m '（コミット内容）'
+* git push origin issue#○○
+* プルリク作成
+* マージ
+* ブランチ削除
+* git checkout develop
+* git pull origin develop
+* 
